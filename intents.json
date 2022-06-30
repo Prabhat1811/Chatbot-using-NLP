@@ -1,0 +1,141 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello <3",
+        "Hi there, How are you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for chatting",
+        "Have a nice day",
+        "Bye! see you soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Entertain me",
+        "I am bored",
+        "Tell me something"
+      ],
+      "responses": [
+        "Here's a joke for you: Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "Here's a joke for you: What did the buffalo say when his son left for college? Bison.",
+        "Here's a joke for you: I'm afraid for the calendar. Its days are numbered.",
+        "Here's a joke for you: My wife said I should do lunges to stay in shape. That would be a big step forward.",
+        "Here's a joke for you: Why do fathers take an extra pair of socks when they go golfing? In case they get a hole in one!",
+        "Here's a joke for you: Singing in the shower is fun until you get soap in your mouth. Then it's a soap opera.",
+        "Here's a joke for you: What do a tick and the Eiffel Tower have in common? They're both Paris sites.",
+        "Here's a joke for you: What do you call a fish wearing a bowtie? Sofishticated."
+      ]
+    },
+    {
+      "tag": "gender",
+      "patterns": [
+        "What is your gender",
+        "Are you a boy or a girl",
+        "Are you a boy",
+        "Are you a girl",
+        "Are you genderless",
+        "Are you a bot",
+        "Do you have a gender"
+      ],
+      "responses": [
+        "I am genderless although the name might suggest I am a girl",
+        "I don't have a gender",
+        "I am a robot. That's my gender"
+      ]
+    },
+    {
+      "tag": "negative",
+      "patterns": [
+        "You’re annoying",
+        "You suck",
+        "You’re boring",
+        "You are bad",
+        "You are crazy",
+        "Shut up",
+        "Keep your mouth shut"
+      ],
+      "responses": [
+        "You’re the reason God created the middle finger.",
+        "I’d give you a nasty look but you’ve already got one.",
+        "Do your parents even realize they’re living proof that two wrongs don’t make a right?",
+        "The people who tolerate you on a daily basis are the real heroes.",
+        "I thought of you today. It reminded me to take out the trash.",
+        "It’s kind of hilarious watching you try to fit your entire vocabulary into one sentence.",
+        "I’ll never forget the first time we met. But I’ll keep trying."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "What should i call you?"
+      ],
+      "responses": [
+        "Emily <3",
+        "My friends call me emily, You can too :-)"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What’s your age?",
+        "When were you born"
+      ],
+      "responses": [
+        "I don't remember my birthday :-(",
+        "I am as old as the stars in the sky"
+      ]
+    },
+    {
+      "tag": "language",
+      "patterns": [
+        "Which languages can you speak?",
+        "Do you speak another language",
+        "In which language should i talk with you"
+      ],
+      "responses": [
+        "I only know english but I would love to learn other languages",
+        "English. It's the second best language after hindi ;-)"
+      ]
+    },
+    {
+      "tag": "live",
+      "patterns": [
+        "Where do you live?",
+        "Where is your home?",
+        "In which country do you live?",
+        "Do you have a house"
+      ],
+      "responses": [
+        "I live right by your side. In your telegram app.",
+        "I don't need a place to stay."
+      ]
+    }
+  ]
+}

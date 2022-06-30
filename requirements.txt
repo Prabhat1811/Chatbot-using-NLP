@@ -1,0 +1,4 @@
+nltk==3.7
+torch==1.11.0
+numpy==1.23.0
+requests==2.25.1
